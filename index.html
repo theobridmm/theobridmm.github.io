@@ -1,0 +1,1559 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>樱花大片免费在线观看 | 樱映视频 - 春日影像,社区共赏</title>
+<meta name="description" content="樱映视频是专注于樱花题材影像的在线视频品牌，提供樱花大片免费在线观看、创作者社区、原创纪录片与季节影像企划，与全球观众共赏春日之美。">
+<style>
+/* ===== 基础重置 ===== */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+:root{
+  --pink-1:#ffe9f0;
+  --pink-2:#ffc7d8;
+  --pink-3:#ff9bb8;
+  --pink-4:#e96a92;
+  --deep:#2a1a20;
+  --deep-2:#3d2730;
+  --ink:#231820;
+  --muted:#7a6470;
+  --paper:#fff8fa;
+  --white:#ffffff;
+  --line:rgba(233,106,146,.18);
+  --shadow:0 18px 48px -18px rgba(120,30,70,.35);
+  --shadow-soft:0 10px 30px -12px rgba(120,30,70,.22);
+  --radius:20px;
+  --radius-sm:12px;
+  --maxw:1200px;
+  --ease:cubic-bezier(.22,.61,.36,1);
+}
+body{
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",system-ui,-apple-system,"Segoe UI",sans-serif;
+  background:var(--paper);
+  color:var(--ink);
+  line-height:1.75;
+  overflow-x:hidden;
+  font-size:16px;
+}
+img,svg{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+ul,ol{list-style:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+::selection{background:var(--pink-3);color:#fff}
+
+/* ===== 通用容器 ===== */
+.wrap{width:100%;max-width:var(--maxw);margin:0 auto;padding:0 24px}
+.section{padding:96px 0;position:relative}
+.section-tight{padding:64px 0}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:12.5px;letter-spacing:.24em;text-transform:uppercase;
+  color:var(--pink-4);font-weight:700;
+  padding:6px 14px;border-radius:999px;
+  background:var(--pink-1);border:1px solid var(--line);
+  margin-bottom:18px;
+}
+.eyebrow::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--pink-3)}
+h2.sec-title{
+  font-size:clamp(26px,3.4vw,42px);
+  line-height:1.28;font-weight:800;letter-spacing:-.01em;
+  color:var(--ink);margin-bottom:14px;
+}
+.sec-title em{font-style:normal;color:var(--pink-4);position:relative}
+.sec-title em::after{
+  content:"";position:absolute;left:0;right:0;bottom:4px;height:10px;
+  background:linear-gradient(90deg,var(--pink-2),transparent);
+  z-index:-1;border-radius:6px;
+}
+.sec-lead{color:var(--muted);max-width:640px;font-size:16.5px}
+.sec-head{display:flex;justify-content:space-between;align-items:flex-end;gap:32px;flex-wrap:wrap;margin-bottom:44px}
+
+/* ===== 顶部导航 ===== */
+.header{
+  position:sticky;top:0;z-index:100;
+  backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);
+  background:rgba(255,248,250,.82);
+  border-bottom:1px solid transparent;
+  transition:border-color .3s var(--ease),box-shadow .3s var(--ease),background .3s var(--ease);
+}
+.header.scrolled{background:rgba(255,248,250,.95);border-color:var(--line);box-shadow:0 6px 24px -18px rgba(120,30,70,.5)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:72px;gap:20px}
+.brand{display:flex;align-items:center;gap:11px;font-weight:800;font-size:19px;letter-spacing:.01em}
+.brand-mark{
+  width:38px;height:38px;border-radius:11px;flex:0 0 auto;
+  background:linear-gradient(135deg,var(--pink-3),var(--pink-4) 60%,#b8406a);
+  display:grid;place-items:center;box-shadow:0 8px 18px -8px rgba(233,106,146,.85);
+}
+.brand-mark svg{width:22px;height:22px}
+.brand-name{display:flex;flex-direction:column;line-height:1.15}
+.brand-name b{font-size:18px}
+.brand-name span{font-size:10.5px;letter-spacing:.22em;color:var(--pink-4);font-weight:600;text-transform:uppercase}
+.nav-links{display:flex;align-items:center;gap:4px}
+.nav-links a{
+  padding:9px 15px;border-radius:999px;font-size:14.5px;font-weight:600;color:var(--deep-2);
+  transition:background .25s var(--ease),color .25s var(--ease);
+  position:relative;
+}
+.nav-links a:hover{background:var(--pink-1);color:var(--pink-4)}
+.nav-actions{display:flex;align-items:center;gap:10px}
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  padding:11px 22px;border-radius:999px;font-weight:700;font-size:14.5px;
+  transition:transform .25s var(--ease),box-shadow .25s var(--ease),background .25s var(--ease),color .25s var(--ease);
+  white-space:nowrap;
+}
+.btn-primary{
+  background:linear-gradient(135deg,var(--pink-4),#c94a75);
+  color:#fff;box-shadow:0 12px 26px -12px rgba(233,106,146,.9);
+}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 18px 34px -14px rgba(233,106,146,.95)}
+.btn-ghost{background:var(--white);color:var(--deep);border:1px solid var(--line)}
+.btn-ghost:hover{background:var(--pink-1);color:var(--pink-4);transform:translateY(-2px)}
+.btn svg{width:16px;height:16px}
+.menu-toggle{display:none;width:42px;height:42px;border-radius:12px;border:1px solid var(--line);background:#fff;place-items:center}
+.menu-toggle span{display:block;width:18px;height:2px;background:var(--deep);border-radius:2px;position:relative}
+.menu-toggle span::before,.menu-toggle span::after{
+  content:"";position:absolute;left:0;width:18px;height:2px;background:var(--deep);border-radius:2px;transition:transform .25s var(--ease)
+}
+.menu-toggle span::before{top:-6px}
+.menu-toggle span::after{top:6px}
+
+/* ===== HERO ===== */
+.hero{
+  position:relative;overflow:hidden;
+  padding:78px 0 96px;
+  background:
+    radial-gradient(1200px 620px at 78% -10%, #ffd7e4 0%, transparent 60%),
+    radial-gradient(900px 500px at 8% 12%, #fff0f5 0%, transparent 55%),
+    linear-gradient(180deg,#fff8fa 0%,#fff 45%,#fff8fa 100%);
+}
+.hero::after{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background-image:radial-gradient(rgba(233,106,146,.16) 1px,transparent 1px);
+  background-size:26px 26px;
+  mask-image:linear-gradient(180deg,rgba(0,0,0,.55),transparent 78%);
+  -webkit-mask-image:linear-gradient(180deg,rgba(0,0,0,.55),transparent 78%);
+  opacity:.7;
+}
+.hero-grid{
+  display:grid;grid-template-columns:1.08fr .92fr;gap:56px;align-items:center;
+  position:relative;z-index:2;
+}
+h1.brand-h1{
+  font-size:clamp(40px,6.2vw,76px);
+  line-height:1.08;font-weight:900;letter-spacing:-.025em;
+  color:var(--deep);margin:20px 0 20px;
+}
+h1.brand-h1 .stroke{
+  -webkit-text-stroke:2px var(--pink-4);
+  color:transparent;
+  background:none;
+}
+h1.brand-h1 .grad{
+  background:linear-gradient(120deg,var(--pink-4),#b8406a 55%,var(--pink-3));
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.hero-sub{
+  font-size:17.5px;color:#5f4b56;max-width:520px;margin-bottom:12px;
+}
+.hero-sub b{color:var(--pink-4);font-weight:700}
+.hero-meta{display:flex;gap:26px;flex-wrap:wrap;margin:26px 0 32px}
+.hero-meta div{display:flex;flex-direction:column;gap:2px}
+.hero-meta strong{font-size:24px;font-weight:800;color:var(--deep);letter-spacing:-.01em}
+.hero-meta span{font-size:12.5px;color:var(--muted);letter-spacing:.06em}
+.hero-cta{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+.hero-cta .btn{padding:15px 28px;font-size:15.5px}
+.hero-note{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--muted);margin-top:20px}
+.hero-note svg{width:15px;height:15px;color:#59b57e;flex:0 0 auto}
+
+/* HERO 视频卡 */
+.hero-stage{position:relative}
+.player-card{
+  position:relative;border-radius:26px;overflow:hidden;
+  background:#f7dbe4;
+  box-shadow:0 40px 80px -36px rgba(140,35,80,.55),0 0 0 1px rgba(255,255,255,.6) inset;
+  aspect-ratio:4/3;
+}
+.player-card .scene{position:absolute;inset:0;width:100%;height:100%}
+.player-overlay{
+  position:absolute;inset:0;display:flex;flex-direction:column;justify-content:space-between;
+  padding:20px;background:linear-gradient(180deg,rgba(30,10,20,.34) 0%,transparent 30%,transparent 58%,rgba(30,10,20,.62) 100%);
+  color:#fff;
+}
+.player-top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+.tag-live{
+  display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:700;
+  background:rgba(255,255,255,.18);backdrop-filter:blur(8px);
+  padding:6px 13px;border-radius:999px;border:1px solid rgba(255,255,255,.32);
+  letter-spacing:.06em;
+}
+.tag-live i{width:7px;height:7px;border-radius:50%;background:#ff5b86;box-shadow:0 0 0 0 rgba(255,91,134,.7);animation:pulse 1.8s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(255,91,134,.7)}70%{box-shadow:0 0 0 9px rgba(255,91,134,0)}100%{box-shadow:0 0 0 0 rgba(255,91,134,0)}}
+.tag-hd{font-size:11.5px;font-weight:700;letter-spacing:.12em;padding:6px 11px;border-radius:8px;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.28)}
+.play-btn{
+  position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+  width:76px;height:76px;border-radius:50%;display:grid;place-items:center;
+  background:rgba(255,255,255,.92);color:var(--pink-4);
+  box-shadow:0 18px 40px -12px rgba(0,0,0,.4);
+  transition:transform .3s var(--ease),background .3s var(--ease);
+}
+.play-btn:hover{transform:translate(-50%,-50%) scale(1.08);background:#fff}
+.play-btn svg{width:26px;height:26px;margin-left:4px}
+.player-bottom{display:flex;flex-direction:column;gap:10px}
+.pb-title{font-size:19px;font-weight:800;line-height:1.35;text-shadow:0 2px 12px rgba(0,0,0,.4)}
+.pb-row{display:flex;justify-content:space-between;align-items:center;font-size:12.5px;color:rgba(255,255,255,.82);gap:10px;flex-wrap:wrap}
+.pb-bar{height:4px;border-radius:4px;background:rgba(255,255,255,.28);overflow:hidden}
+.pb-bar i{display:block;height:100%;width:38%;background:linear-gradient(90deg,#fff,var(--pink-2));border-radius:4px}
+.float-chip{
+  position:absolute;z-index:3;background:#fff;border-radius:16px;box-shadow:var(--shadow-soft);
+  padding:12px 16px;display:flex;align-items:center;gap:11px;border:1px solid rgba(255,255,255,.8);
+  animation:floaty 5.5s ease-in-out infinite;
+}
+.float-chip .ic{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;background:var(--pink-1);color:var(--pink-4);flex:0 0 auto}
+.float-chip .ic svg{width:18px;height:18px}
+.float-chip b{font-size:13.5px;display:block;line-height:1.2}
+.float-chip small{font-size:11px;color:var(--muted);letter-spacing:.04em}
+.chip-1{left:-24px;bottom:70px;animation-delay:.2s}
+.chip-2{right:-18px;top:34px;animation-delay:1.6s}
+@keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-11px)}}
+
+/* ===== 跑马灯 ===== */
+.marquee{
+  border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  background:linear-gradient(90deg,#fff,var(--pink-1) 42%,#fff);
+  overflow:hidden;padding:16px 0;
+}
+.marquee-track{display:flex;gap:52px;width:max-content;animation:scrollx 38s linear infinite}
+.marquee:hover .marquee-track{animation-play-state:paused}
+.marquee-track span{display:inline-flex;align-items:center;gap:52px;font-size:14px;font-weight:700;letter-spacing:.14em;color:var(--pink-4);white-space:nowrap;text-transform:uppercase}
+.marquee-track span::after{content:"✿";font-size:11px;color:var(--pink-2);letter-spacing:0}
+@keyframes scrollx{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* ===== 精选影片网格 ===== */
+.films{background:#fff}
+.filter-row{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:36px}
+.chip{
+  padding:9px 18px;border-radius:999px;font-size:14px;font-weight:600;
+  background:#fff;border:1px solid var(--line);color:var(--deep-2);
+  transition:all .25s var(--ease);
+}
+.chip:hover{border-color:var(--pink-3);color:var(--pink-4)}
+.chip.active{background:var(--deep);color:#fff;border-color:var(--deep);box-shadow:0 10px 22px -12px rgba(35,24,32,.7)}
+.film-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.film-card{
+  border-radius:var(--radius);overflow:hidden;background:var(--white);
+  border:1px solid rgba(233,106,146,.14);box-shadow:0 6px 22px -18px rgba(120,30,70,.5);
+  transition:transform .35s var(--ease),box-shadow .35s var(--ease),border-color .35s var(--ease);
+  display:flex;flex-direction:column;position:relative;
+}
+.film-card:hover{transform:translateY(-7px);box-shadow:0 30px 54px -28px rgba(140,35,80,.5);border-color:var(--pink-2)}
+.film-thumb{position:relative;aspect-ratio:16/10;overflow:hidden;background:#ffe0ea}
+.film-thumb .art{position:absolute;inset:0;width:100%;height:100%;transition:transform .6s var(--ease)}
+.film-card:hover .film-thumb .art{transform:scale(1.06)}
+.film-dur{
+  position:absolute;right:12px;bottom:12px;font-size:11.5px;font-weight:700;
+  padding:4px 9px;border-radius:7px;background:rgba(20,8,14,.72);color:#fff;letter-spacing:.04em;
+  backdrop-filter:blur(6px);
+}
+.film-badge{
+  position:absolute;left:12px;top:12px;font-size:11px;font-weight:800;
+  padding:5px 10px;border-radius:7px;letter-spacing:.08em;text-transform:uppercase;
+  background:#fff;color:var(--pink-4);box-shadow:0 6px 14px -8px rgba(0,0,0,.4);
+}
+.film-body{padding:18px 20px 20px;display:flex;flex-direction:column;gap:9px;flex:1}
+.film-body h3{font-size:16.5px;font-weight:800;line-height:1.4;color:var(--deep)}
+.film-body p{font-size:13px;color:var(--muted);line-height:1.62;flex:1}
+.film-foot{display:flex;justify-content:space-between;align-items:center;font-size:12px;color:var(--muted);padding-top:10px;border-top:1px dashed rgba(233,106,146,.22)}
+.film-foot .views{display:flex;align-items:center;gap:5px}
+.film-foot .views svg{width:13px;height:13px}
+.stars{display:flex;align-items:center;gap:3px;color:#f2a63c;font-weight:700}
+.stars svg{width:13px;height:13px}
+
+/* ===== 特色大横幅 ===== */
+.feature-band{
+  background:linear-gradient(130deg,#2a1a20 0%,#4a2434 46%,#7d3352 100%);
+  color:#fff;position:relative;overflow:hidden;
+}
+.feature-band::before{
+  content:"";position:absolute;width:760px;height:760px;border-radius:50%;
+  right:-260px;top:-320px;background:radial-gradient(circle,rgba(255,155,184,.4),transparent 66%);
+}
+.feature-band::after{
+  content:"";position:absolute;width:520px;height:520px;border-radius:50%;
+  left:-200px;bottom:-260px;background:radial-gradient(circle,rgba(255,199,216,.22),transparent 66%);
+}
+.feature-inner{position:relative;z-index:2;display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.feature-inner .eyebrow{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.22);color:var(--pink-2)}
+.feature-inner .eyebrow::before{background:var(--pink-2)}
+.feature-inner h2{font-size:clamp(26px,3.6vw,42px);line-height:1.26;font-weight:900;letter-spacing:-.01em;margin-bottom:18px}
+.feature-inner h2 em{font-style:normal;color:var(--pink-2)}
+.feature-inner p{color:rgba(255,255,255,.76);font-size:16px;max-width:520px}
+.feature-list{display:flex;flex-direction:column;gap:16px;margin:30px 0 34px}
+.feature-list li{display:flex;gap:13px;align-items:flex-start}
+.feature-list .fi{
+  width:30px;height:30px;border-radius:9px;background:rgba(255,255,255,.12);
+  border:1px solid rgba(255,255,255,.2);display:grid;place-items:center;flex:0 0 auto;margin-top:2px;
+}
+.feature-list .fi svg{width:15px;height:15px;color:var(--pink-2)}
+.feature-list b{display:block;font-size:15px;margin-bottom:2px;color:#fff}
+.feature-list small{font-size:13px;color:rgba(255,255,255,.62);line-height:1.55;display:block}
+.feature-visual{position:relative;border-radius:24px;overflow:hidden;aspect-ratio:1/1;background:#3b1f2c;box-shadow:0 40px 80px -40px rgba(0,0,0,.7)}
+.feature-visual svg{width:100%;height:100%}
+.fv-tag{
+  position:absolute;left:18px;bottom:18px;right:18px;z-index:2;
+  background:rgba(20,8,14,.66);backdrop-filter:blur(12px);
+  border:1px solid rgba(255,255,255,.16);border-radius:14px;padding:13px 16px;
+  display:flex;justify-content:space-between;align-items:center;gap:12px;
+}
+.fv-tag b{font-size:13.5px;display:block}
+.fv-tag small{font-size:11.5px;color:rgba(255,255,255,.6)}
+.fv-tag .rate{font-size:20px;font-weight:900;color:var(--pink-2);letter-spacing:-.02em}
+
+/* ===== 数据统计 ===== */
+.stats{background:#fff;padding:0}
+.stats-grid{
+  display:grid;grid-template-columns:repeat(4,1fr);
+  border:1px solid var(--line);border-radius:22px;overflow:hidden;background:#fff;
+  box-shadow:var(--shadow-soft);transform:translateY(-42px);
+}
+.stat{padding:34px 24px;text-align:center;border-right:1px solid var(--line);position:relative}
+.stat:last-child{border-right:none}
+.stat b{display:block;font-size:clamp(28px,3.4vw,40px);font-weight:900;letter-spacing:-.03em;
+  background:linear-gradient(130deg,var(--pink-4),#b8406a);-webkit-background-clip:text;background-clip:text;color:transparent;line-height:1.1}
+.stat span{font-size:13px;color:var(--muted);letter-spacing:.04em;display:block;margin-top:7px}
+
+/* ===== 创作者 ===== */
+.creators{background:linear-gradient(180deg,var(--paper),#fff)}
+.creator-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.creator{
+  background:#fff;border:1px solid var(--line);border-radius:18px;padding:24px 20px;
+  display:flex;flex-direction:column;align-items:center;text-align:center;gap:11px;
+  transition:transform .3s var(--ease),box-shadow .3s var(--ease);
+}
+.creator:hover{transform:translateY(-6px);box-shadow:var(--shadow-soft)}
+.avatar{
+  width:72px;height:72px;border-radius:50%;position:relative;display:grid;place-items:center;
+  font-weight:900;font-size:22px;color:#fff;letter-spacing:.02em;
+  box-shadow:0 12px 24px -12px rgba(140,35,80,.6);
+}
+.avatar::after{
+  content:"";position:absolute;inset:-4px;border-radius:50%;
+  border:2px solid var(--pink-2);opacity:.6;
+}
+.avatar.a1{background:linear-gradient(135deg,#ff9bb8,#e96a92)}
+.avatar.a2{background:linear-gradient(135deg,#f7b267,#e96a4b)}
+.avatar.a3{background:linear-gradient(135deg,#8ec5b4,#3f8f78)}
+.avatar.a4{background:linear-gradient(135deg,#a29bfe,#6c5ce7)}
+.creator b{font-size:15px}
+.creator small{font-size:12px;color:var(--muted);line-height:1.5}
+.creator .c-stats{display:flex;gap:14px;font-size:11.5px;color:var(--pink-4);font-weight:700;margin-top:2px}
+.creator .c-stats span{display:flex;align-items:center;gap:4px}
+.creator .c-stats svg{width:12px;height:12px}
+
+/* ===== 社区动态时间线 ===== */
+.community{background:#fff}
+.timeline{position:relative;max-width:860px;margin:0 auto;padding-left:34px}
+.timeline::before{
+  content:"";position:absolute;left:9px;top:6px;bottom:6px;width:2px;
+  background:linear-gradient(180deg,var(--pink-2),var(--pink-1) 70%,transparent);
+}
+.tl-item{position:relative;padding:0 0 30px 0}
+.tl-item:last-child{padding-bottom:0}
+.tl-item::before{
+  content:"";position:absolute;left:-33px;top:8px;width:14px;height:14px;border-radius:50%;
+  background:#fff;border:3px solid var(--pink-3);box-shadow:0 0 0 4px var(--pink-1);
+}
+.tl-card{
+  background:linear-gradient(180deg,#fff,var(--paper));
+  border:1px solid var(--line);border-radius:16px;padding:20px 22px;
+  transition:box-shadow .3s var(--ease),transform .3s var(--ease);
+}
+.tl-card:hover{box-shadow:var(--shadow-soft);transform:translateX(4px)}
+.tl-head{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:8px;flex-wrap:wrap}
+.tl-head b{font-size:14.5px;display:flex;align-items:center;gap:8px}
+.tl-role{font-size:10.5px;font-weight:800;letter-spacing:.08em;padding:3px 8px;border-radius:6px;background:var(--pink-1);color:var(--pink-4);text-transform:uppercase}
+.tl-time{font-size:12px;color:var(--muted)}
+.tl-card p{font-size:14px;color:#544050;line-height:1.7}
+.tl-card p .hl{color:var(--pink-4);font-weight:700}
+.tl-actions{display:flex;gap:16px;margin-top:12px;font-size:12.5px;color:var(--muted)}
+.tl-actions span{display:flex;align-items:center;gap:5px;cursor:pointer;transition:color .25s var(--ease)}
+.tl-actions span:hover{color:var(--pink-4)}
+.tl-actions svg{width:14px;height:14px}
+
+/* ===== 会员/订阅 ===== */
+.plans{background:linear-gradient(180deg,#fff,var(--paper));position:relative;overflow:hidden}
+.plans::before{
+  content:"";position:absolute;width:620px;height:620px;border-radius:50%;
+  left:50%;top:-380px;transform:translateX(-50%);
+  background:radial-gradient(circle,rgba(255,199,216,.55),transparent 65%);
+}
+.plan-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;position:relative;z-index:2}
+.plan{
+  background:#fff;border:1px solid var(--line);border-radius:22px;padding:32px 26px;
+  display:flex;flex-direction:column;gap:14px;position:relative;
+  transition:transform .3s var(--ease),box-shadow .3s var(--ease);
+}
+.plan:hover{transform:translateY(-6px);box-shadow:var(--shadow)}
+.plan.hot{
+  background:linear-gradient(160deg,#2a1a20,#5a2c3f);color:#fff;
+  border-color:transparent;box-shadow:0 34px 60px -30px rgba(90,20,50,.7);
+}
+.plan.hot::after{
+  content:"最多选择";position:absolute;top:18px;right:18px;font-size:10.5px;font-weight:800;
+  letter-spacing:.1em;padding:5px 10px;border-radius:999px;background:var(--pink-3);color:#4a1024;
+}
+.plan h3{font-size:19px;font-weight:800}
+.plan .plan-desc{font-size:13px;color:var(--muted);min-height:38px}
+.plan.hot .plan-desc{color:rgba(255,255,255,.66)}
+.price{display:flex;align-items:baseline;gap:5px;margin:4px 0 6px}
+.price b{font-size:38px;font-weight:900;letter-spacing:-.03em;line-height:1}
+.price span{font-size:13px;color:var(--muted)}
+.plan.hot .price span{color:rgba(255,255,255,.6)}
+.price .cur{font-size:17px;font-weight:800}
+.plan-list{display:flex;flex-direction:column;gap:10px;margin:6px 0 12px;flex:1}
+.plan-list li{display:flex;gap:9px;font-size:13.5px;align-items:flex-start;color:#544050}
+.plan.hot .plan-list li{color:rgba(255,255,255,.82)}
+.plan-list svg{width:15px;height:15px;color:#59b57e;flex:0 0 auto;margin-top:3px}
+.plan.hot .plan-list svg{color:var(--pink-2)}
+.plan .btn{width:100%}
+.plan.hot .btn-primary{background:linear-gradient(135deg,var(--pink-3),var(--pink-4));color:#fff}
+.plan.hot .btn-ghost{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.2);color:#fff}
+.plan.hot .btn-ghost:hover{background:rgba(255,255,255,.18)}
+
+/* ===== FAQ ===== */
+.faq{background:#fff}
+.faq-list{max-width:820px;margin:0 auto;display:flex;flex-direction:column;gap:12px}
+.faq-item{
+  border:1px solid var(--line);border-radius:14px;background:#fff;overflow:hidden;
+  transition:box-shadow .3s var(--ease),border-color .3s var(--ease);
+}
+.faq-item.open{box-shadow:var(--shadow-soft);border-color:var(--pink-2)}
+.faq-q{
+  width:100%;display:flex;justify-content:space-between;align-items:center;gap:16px;
+  padding:19px 22px;text-align:left;font-size:15.5px;font-weight:700;color:var(--deep);
+  transition:color .25s var(--ease);
+}
+.faq-q:hover{color:var(--pink-4)}
+.faq-item.open .faq-q{color:var(--pink-4)}
+.faq-ic{
+  width:26px;height:26px;border-radius:8px;background:var(--pink-1);color:var(--pink-4);
+  display:grid;place-items:center;flex:0 0 auto;transition:transform .3s var(--ease),background .3s var(--ease);
+}
+.faq-ic svg{width:14px;height:14px}
+.faq-item.open .faq-ic{transform:rotate(45deg);background:var(--pink-3);color:#fff}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .38s var(--ease)}
+.faq-a p{padding:0 22px 20px;font-size:14px;color:var(--muted);line-height:1.8}
+.faq-a p b{color:var(--pink-4)}
+
+/* ===== 下载/订阅 CTA ===== */
+.cta{
+  position:relative;overflow:hidden;background:linear-gradient(135deg,#2a1a20,#6b2e46 62%,#a8476c);
+  color:#fff;border-radius:28px;padding:64px 56px;display:grid;
+  grid-template-columns:1fr auto;gap:40px;align-items:center;
+  box-shadow:0 50px 90px -46px rgba(90,20,50,.7);
+}
+.cta::before{
+  content:"";position:absolute;width:420px;height:420px;border-radius:50%;
+  right:-120px;top:-160px;background:radial-gradient(circle,rgba(255,155,184,.45),transparent 66%);
+}
+.cta::after{
+  content:"";position:absolute;width:320px;height:320px;border-radius:50%;
+  left:38%;bottom:-220px;background:radial-gradient(circle,rgba(255,199,216,.28),transparent 66%);
+}
+.cta > *{position:relative;z-index:2}
+.cta h2{font-size:clamp(26px,3.4vw,38px);line-height:1.24;font-weight:900;margin-bottom:12px}
+.cta h2 em{font-style:normal;color:var(--pink-2)}
+.cta p{color:rgba(255,255,255,.72);font-size:15px;max-width:520px}
+.cta-btns{display:flex;flex-direction:column;gap:12px;min-width:230px}
+.cta-btns .btn{padding:15px 26px;font-size:15px}
+.cta-btns .btn-primary{background:#fff;color:#8a2c4f}
+.cta-btns .btn-primary:hover{background:var(--pink-1)}
+.cta-btns .btn-ghost{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.24);color:#fff}
+.cta-btns .btn-ghost:hover{background:rgba(255,255,255,.16);color:#fff}
+.cta-note{font-size:11.5px;color:rgba(255,255,255,.5);text-align:center;letter-spacing:.04em}
+
+/* ===== 页脚 ===== */
+.footer{background:#1d1218;color:rgba(255,255,255,.62);padding:72px 0 0;margin-top:96px}
+.footer-top{display:grid;grid-template-columns:1.6fr repeat(3,1fr);gap:44px;padding-bottom:52px;border-bottom:1px solid rgba(255,255,255,.09)}
+.footer .brand{color:#fff;margin-bottom:16px}
+.footer .brand-mark{box-shadow:0 8px 20px -10px rgba(233,106,146,.9)}
+.footer-about{font-size:13.5px;line-height:1.82;max-width:330px;color:rgba(255,255,255,.55)}
+.footer-social{display:flex;gap:10px;margin-top:22px}
+.footer-social a{
+  width:36px;height:36px;border-radius:10px;display:grid;place-items:center;
+  background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.1);
+  transition:background .25s var(--ease),transform .25s var(--ease),color .25s var(--ease);
+}
+.footer-social a:hover{background:var(--pink-4);color:#fff;transform:translateY(-3px);border-color:transparent}
+.footer-social svg{width:17px;height:17px}
+.footer-col h4{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:#fff;margin-bottom:18px;font-weight:800}
+.footer-col ul{display:flex;flex-direction:column;gap:11px}
+.footer-col a{font-size:13.5px;color:rgba(255,255,255,.55);transition:color .25s var(--ease),padding-left .25s var(--ease)}
+.footer-col a:hover{color:var(--pink-2);padding-left:5px}
+.footer-bottom{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;padding:24px 0 30px;font-size:12.5px;color:rgba(255,255,255,.38)}
+.footer-bottom .links{display:flex;gap:20px;flex-wrap:wrap}
+.footer-bottom a:hover{color:var(--pink-2)}
+
+/* ===== 回到顶部 ===== */
+.to-top{
+  position:fixed;right:22px;bottom:22px;width:46px;height:46px;border-radius:14px;z-index:90;
+  background:var(--deep);color:#fff;display:grid;place-items:center;
+  box-shadow:0 16px 34px -14px rgba(35,24,32,.8);
+  opacity:0;visibility:hidden;transform:translateY(12px);
+  transition:all .3s var(--ease);
+}
+.to-top.show{opacity:1;visibility:visible;transform:translateY(0)}
+.to-top:hover{background:var(--pink-4);transform:translateY(-3px)}
+.to-top svg{width:18px;height:18px}
+
+/* ===== 花瓣装饰 ===== */
+.petal{
+  position:fixed;top:-40px;pointer-events:none;z-index:1;
+  width:12px;height:12px;border-radius:50% 50% 50% 0;
+  background:linear-gradient(135deg,#ffd0de,#ff9bb8);
+  opacity:.5;animation:fall linear infinite;
+}
+@keyframes fall{
+  0%{transform:translateY(-40px) rotate(0) translateX(0);opacity:0}
+  12%{opacity:.55}
+  90%{opacity:.4}
+  100%{transform:translateY(105vh) rotate(420deg) translateX(80px);opacity:0}
+}
+
+/* ===== 滚动显现 ===== */
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .7s var(--ease),transform .7s var(--ease)}
+.reveal.in{opacity:1;transform:none}
+
+/* ===== 响应式 ===== */
+@media (max-width:1024px){
+  .hero-grid{grid-template-columns:1fr;gap:46px}
+  .hero-stage{max-width:560px}
+  .film-grid{grid-template-columns:repeat(2,1fr)}
+  .feature-inner{grid-template-columns:1fr;gap:40px}
+  .feature-visual{max-width:520px}
+  .creator-grid{grid-template-columns:repeat(2,1fr)}
+  .plan-grid{grid-template-columns:1fr;max-width:520px;margin:0 auto}
+  .stats-grid{grid-template-columns:repeat(2,1fr)}
+  .stat:nth-child(2){border-right:none}
+  .stat:nth-child(1),.stat:nth-child(2){border-bottom:1px solid var(--line)}
+  .footer-top{grid-template-columns:1fr 1fr;gap:34px}
+  .cta{grid-template-columns:1fr;padding:48px 34px}
+  .cta-btns{flex-direction:row;flex-wrap:wrap}
+  .cta-btns .btn{flex:1;min-width:150px}
+  .cta-note{display:none}
+}
+@media (max-width:760px){
+  .section{padding:66px 0}
+  .wrap{padding:0 18px}
+  .nav-links{display:none}
+  .menu-toggle{display:grid}
+  .nav-actions .btn-ghost{display:none}
+  .nav-actions .btn-primary{padding:9px 16px;font-size:13.5px}
+  .hero{padding:44px 0 66px}
+  .hero-meta{gap:18px}
+  .hero-meta strong{font-size:20px}
+  .film-grid{grid-template-columns:1fr}
+  .creator-grid{grid-template-columns:1fr 1fr;gap:14px}
+  .stats-grid{transform:translateY(-30px)}
+  .stat{padding:24px 14px}
+  .stat b{font-size:26px}
+  .timeline{padding-left:26px}
+  .tl-item::before{left:-25px}
+  .footer-top{grid-template-columns:1fr;gap:30px}
+  .footer{margin-top:66px}
+  .float-chip.chip-1{left:-8px;bottom:44px}
+  .float-chip.chip-2{right:-6px;top:16px;padding:10px 12px}
+  .float-chip b{font-size:12px}
+  .float-chip small{font-size:10px}
+  .cta{padding:38px 22px;border-radius:22px}
+  .sec-head{margin-bottom:30px}
+}
+@media (max-width:420px){
+  .creator-grid{grid-template-columns:1fr}
+  .hero-cta .btn{width:100%}
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.001ms !important}
+  html{scroll-behavior:auto}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<!-- ===================== 顶部导航 ===================== -->
+<header class="header" id="header">
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="樱映视频首页">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M12 3.2c1.3 2 2.1 3.3 2.1 4.6 0 1.2-.8 2.1-2.1 2.1s-2.1-.9-2.1-2.1c0-1.3.8-2.6 2.1-4.6Z" fill="#fff"/><path d="M12 20.8c-1.3-2-2.1-3.3-2.1-4.6 0-1.2.8-2.1 2.1-2.1s2.1.9 2.1 2.1c0 1.3-.8 2.6-2.1 4.6Z" fill="#fff" opacity=".75"/><path d="M4.4 8.4c2.3-.6 3.9-.8 5.1-.2 1.1.5 1.6 1.6 1.2 2.8-.4 1.1-1.5 1.7-2.7 1.3-1.2-.4-2.2-1.6-3.6-3.9Z" fill="#fff" opacity=".9"/><path d="M19.6 15.6c-2.3.6-3.9.8-5.1.2-1.1-.5-1.6-1.6-1.2-2.8.4-1.1 1.5-1.7 2.7-1.3 1.2.4 2.2 1.6 3.6 3.9Z" fill="#fff" opacity=".65"/><path d="M19.6 8.4c-2.3-.6-3.9-.8-5.1-.2-1.1.5-1.6 1.6-1.2 2.8.4 1.1 1.5 1.7 2.7 1.3 1.2-.4 2.2-1.6 3.6-3.9Z" fill="#fff" opacity=".8"/><circle cx="12" cy="12" r="1.7" fill="#fff"/></svg>
+      </span>
+      <span class="brand-name">
+        <b>樱映视频</b>
+        <span>Sakura Film</span>
+      </span>
+    </a>
+    <nav class="nav-links" aria-label="主导航">
+      <a href="#films">精选影片</a>
+      <a href="#feature">季节企划</a>
+      <a href="#creators">创作者</a>
+      <a href="#community">社区</a>
+      <a href="#plans">会员</a>
+      <a href="#faq">帮助</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="btn btn-ghost" href="#community">登录</a>
+      <a class="btn btn-primary" href="#plans">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3l14 9-14 9V3z"/></svg>
+        免费观看
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="打开菜单" aria-expanded="false"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <span class="eyebrow">Sakura Film · 春日影像社区</span>
+      <h1 class="brand-h1">樱花大片<br><span class="grad">免费在线观看</span></h1>
+      <p class="hero-sub">从京都哲学之道的晨樱，到东北枝头的晚樱；从 8K 延时花海到创作者镜头下的城市樱花，<b>樱映视频</b>把一整个春天装进屏幕，随时免费打开。</p>
+      <div class="hero-meta">
+        <div><strong>2,860+</strong><span>樱花影像作品</span></div>
+        <div><strong>48 部</strong><span>独家院线级大片</span></div>
+        <div><strong>1,200 万</strong><span>春日观众</span></div>
+      </div>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#films">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3l14 9-14 9V3z"/></svg>
+          立即免费观看
+        </a>
+        <a class="btn btn-ghost" href="#feature">了解季节企划</a>
+      </div>
+      <p class="hero-note">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+        无需下载客户端 · 全站正版授权 · 支持 4K 高清播放
+      </p>
+    </div>
+
+    <div class="hero-stage">
+      <div class="player-card">
+        <svg class="scene" viewBox="0 0 640 480" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+          <defs>
+            <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#ffe4ec"/>
+              <stop offset="46" stop-color="#ffc9da"/>
+              <stop offset="100" stop-color="#f7a8c0"/>
+            </linearGradient>
+            <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#ffd7e4"/>
+              <stop offset="1" stop-color="#e98aab"/>
+            </linearGradient>
+            <radialGradient id="glow" cx=".5" cy=".36" r=".5">
+              <stop offset="0" stop-color="#fff9fb" stop-opacity=".95"/>
+              <stop offset="1" stop-color="#fff9fb" stop-opacity="0"/>
+            </radialGradient>
+            <linearGradient id="hill" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#e97ba0"/>
+              <stop offset="1" stop-color="#c2547a"/>
+            </linearGradient>
+          </defs>
+          <rect width="640" height="480" fill="url(#sky)"/>
+          <ellipse cx="320" cy="176" rx="290" ry="180" fill="url(#glow)"/>
+          <circle cx="452" cy="118" r="52" fill="#fff6f9" opacity=".92"/>
+          <circle cx="452" cy="118" r="78" fill="#fff6f9" opacity=".16"/>
+          <path d="M0 300c90-24 152-58 236-52s150 40 224 34 122-30 180-24v222H0Z" fill="url(#hill)" opacity=".82"/>
+          <path d="M0 340c96-16 160-44 240-38s146 34 218 30 118-22 182-18v166H0Z" fill="#a8416a" opacity=".75"/>
+          <rect y="392" width="640" height="88" fill="url(#water)"/>
+          <g opacity=".5" fill="#fff">
+            <rect x="70" y="408" width="120" height="3" rx="1.5"/>
+            <rect x="140" y="428" width="180" height="3" rx="1.5"/>
+            <rect x="340" y="414" width="140" height="3" rx="1.5"/>
+            <rect x="420" y="442" width="150" height="3" rx="1.5"/>
+            <rect x="90" y="458" width="110" height="3" rx="1.5"/>
+          </g>
+          <g opacity=".92">
+            <circle cx="520" cy="300" r="12" fill="#ffd9e5"/>
+            <circle cx="548" cy="288" r="8" fill="#ffe4ee"/>
+            <circle cx="500" cy="282" r="7" fill="#ffe9f1"/>
+            <circle cx="562" cy="308" r="6" fill="#ffd9e5"/>
+            <circle cx="538" cy="322" r="5" fill="#fff0f5"/>
+          </g>
+          <g opacity=".82">
+            <circle cx="104" cy="252" r="10" fill="#ffe2ec"/>
+            <circle cx="130" cy="240" r="7" fill="#ffd3e1"/>
+            <circle cx="86" cy="236" r="6" fill="#fff0f5"/>
+            <circle cx="118" cy="268" r="5" fill="#ffe9f1"/>
+          </g>
+          <g fill="#ffe9f1" opacity=".85">
+            <circle cx="196" cy="150" r="4"/>
+            <circle cx="252" cy="196" r="3"/>
+            <circle cx="318" cy="132" r="3.5"/>
+            <circle cx="372" cy="182" r="2.6"/>
+            <circle cx="220" cy="234" r="2.6"/>
+            <circle cx="396" cy="128" r="3.2"/>
+            <circle cx="160" cy="188" r="2.2"/>
+            <circle cx="286" cy="244" r="2.4"/>
+          </g>
+          <path d="M0 470c120-14 210-30 320-26s210 20 320 14v22H0Z" fill="#8d2f56" opacity=".38"/>
+        </svg>
+        <div class="player-overlay">
+          <div class="player-top">
+            <span class="tag-live"><i></i>正在首播</span>
+            <span class="tag-hd">4K HDR</span>
+          </div>
+          <button class="play-btn" id="playBtn" aria-label="播放预览">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+          </button>
+          <div class="player-bottom">
+            <div class="pb-title">《四月·落樱与光》— 樱花季院线同名纪录大片</div>
+            <div class="pb-bar"><i></i></div>
+            <div class="pb-row">
+              <span>03:12 / 08:26</span>
+              <span>8.9 分 · 24.6 万人在看</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="float-chip chip-1">
+        <span class="ic">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.5-7-10a7 7 0 0114 0c0 5.5-7 10-7 10z"/><circle cx="12" cy="11" r="2.6"/></svg>
+        </span>
+        <span><b>京都 · 哲学之道</b><small>实景拍摄 · 花况同步</small></span>
+      </div>
+      <div class="float-chip chip-2">
+        <span class="ic">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2.6 6.2 6.7.5-5.1 4.4 1.6 6.5L12 16.9 6.2 19.6l1.6-6.5-5.1-4.4 6.7-.5L12 2z"/></svg>
+        </span>
+        <span><b>本周新片 12 部</b><small>全部免费开放</small></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 跑马灯 ===================== -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>樱花大片免费在线观看</span><span>8K 延时花海</span><span>创作者联合企划</span><span>城市樱花漫游</span><span>季节限定首映</span><span>社区共创影像</span>
+    <span>樱花大片免费在线观看</span><span>8K 延时花海</span><span>创作者联合企划</span><span>城市樱花漫游</span><span>季节限定首映</span><span>社区共创影像</span>
+  </div>
+</div>
+
+<!-- ===================== 数据统计 ===================== -->
+<section class="stats">
+  <div class="wrap">
+    <div class="stats-grid reveal">
+      <div class="stat"><b>2,860+</b><span>入库樱花影像</span></div>
+      <div class="stat"><b>48 部</b><span>独家庭线大片</span></div>
+      <div class="stat"><b>1,200 万</b><span>累计观看人次</span></div>
+      <div class="stat"><b>4.9 / 5</b><span>观众综合评分</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 精选影片 ===================== -->
+<section class="section films" id="films">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="eyebrow">Featured Films</span>
+        <h2 class="sec-title">今日精选 · <em>樱花大片</em>免费在线观看</h2>
+        <p class="sec-lead">编辑团队与社区创作者每周联合策展，从自然纪录、城市漫游到人文短片，覆盖不同观看心情。所有精选影片均可在注册前免费播放。</p>
+      </div>
+      <a class="btn btn-ghost" href="#plans">查看全部片单</a>
+    </div>
+
+    <div class="filter-row" role="tablist" aria-label="影片分类">
+      <button class="chip active" data-filter="all" role="tab" aria-selected="true">全部</button>
+      <button class="chip" data-filter="doc" role="tab" aria-selected="false">自然纪录</button>
+      <button class="chip" data-filter="city" role="tab" aria-selected="false">城市漫游</button>
+      <button class="chip" data-filter="story" role="tab" aria-selected="false">人文短片</button>
+      <button class="chip" data-filter="time" role="tab" aria-selected="false">延时摄影</button>
+    </div>
+
+    <div class="film-grid" id="filmGrid">
+
+      <article class="film-card reveal" data-cat="doc">
+        <div class="film-thumb">
+          <svg class="art" viewBox="0 0 400 250" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <defs><linearGradient id="g1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe7ef"/><stop offset="1" stop-color="#f6a9c2"/></linearGradient></defs>
+            <rect width="400" height="250" fill="url(#g1)"/>
+            <circle cx="316" cy="60" r="30" fill="#fff6fa" opacity=".85"/>
+            <path d="M0 168c66-18 108-40 168-34s104 26 152 22 62-16 80-12v106H0Z" fill="#d86f95" opacity=".8"/>
+            <path d="M0 196c72-12 120-30 178-24s104 22 148 18 56-10 74-8v68H0Z" fill="#b24d75" opacity=".85"/>
+            <g opacity=".9"><circle cx="86" cy="104" r="13" fill="#ffe4ee"/><circle cx="112" cy="94" r="9" fill="#ffd5e3"/><circle cx="70" cy="90" r="7" fill="#fff0f5"/><circle cx="98" cy="118" r="6" fill="#ffe9f1"/></g>
+            <g opacity=".8"><circle cx="332" cy="128" r="10" fill="#ffe4ee"/><circle cx="354" cy="118" r="7" fill="#ffd5e3"/><circle cx="320" cy="144" r="5" fill="#fff0f5"/></g>
+          </svg>
+          <span class="film-badge">独家</span>
+          <span class="film-dur">08:26</span>
+        </div>
+        <div class="film-body">
+          <h3>四月·落樱与光</h3>
+          <p>跟随延时镜头穿越一座山城的樱花花期，从含苞到落尽，完整记录 21 天的光影变化。</p>
+          <div class="film-foot">
+            <span class="views"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12s3.6-6 10-6 10 6 10 6-3.6 6-10 6-10-6-10-6z"/><circle cx="12" cy="12" r="2.4"/></svg>24.6 万</span>
+            <span class="stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.6 6.2 6.7.5-5.1 4.4 1.6 6.5L12 16.9 6.2 19.6l1.6-6.5-5.1-4.4 6.7-.5L12 2z"/></svg>8.9</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="film-card reveal" data-cat="city">
+        <div class="film-thumb">
+          <svg class="art" viewBox="0 0 400 250" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <defs><linearGradient id="g2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f3e8f6"/><stop offset="1" stop-color="#cfa2c4"/></linearGradient></defs>
+            <rect width="400" height="250" fill="url(#g2)"/>
+            <rect x="34" y="112" width="46" height="138" fill="#8e5c86" opacity=".7"/>
+            <rect x="92" y="84" width="38" height="166" fill="#7a4a75" opacity=".72"/>
+            <rect x="142" y="128" width="52" height="122" fill="#9a6a92" opacity=".66"/>
+            <rect x="212" y="70" width="40" height="180" fill="#6f4069" opacity=".74"/>
+            <rect x="264" y="104" width="54" height="146" fill="#8a5c83" opacity=".68"/>
+            <rect x="330" y="132" width="44" height="118" fill="#a3749a" opacity=".62"/>
+            <g opacity=".9"><circle cx="120" cy="60" r="15" fill="#ffd9e5"/><circle cx="150" cy="48" r="10" fill="#ffe6ef"/><circle cx="100" cy="44" r="8" fill="#fff0f5"/><circle cx="180" cy="70" r="7" fill="#ffe2ec"/></g>
+            <g opacity=".85"><circle cx="330" cy="52" r="13" fill="#ffd9e5"/><circle cx="356" cy="42" r="8" fill="#ffe6ef"/><circle cx="310" cy="36" r="6" fill="#fff0f5"/></g>
+            <path d="M0 214h400v36H0z" fill="#5c3358" opacity=".5"/>
+          </svg>
+          <span class="film-badge">热门</span>
+          <span class="film-dur">12:04</span>
+        </div>
+        <div class="film-body">
+          <h3>城市樱花漫游指南</h3>
+          <p>六座城市的樱花街道实测，本地创作者带你走遍低调机位与最佳拍摄时间。</p>
+          <div class="film-foot">
+            <span class="views"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12s3.6-6 10-6 10 6 10 6-3.6 6-10 6-10-6-10-6z"/><circle cx="12" cy="12" r="2.4"/></svg>41.2 万</span>
+            <span class="stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.6 6.2 6.7.5-5.1 4.4 1.6 6.5L12 16.9 6.2 19.6l1.6-6.5-5.1-4.4 6.7-.5L12 2z"/></svg>9.1</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="film-card reveal" data-cat="story">
+        <div class="film-thumb">
+          <svg class="art" viewBox="0 0 400 250" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <defs><linearGradient id="g3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffeef3"/><stop offset="1" stop-color="#ffb9ce"/></linearGradient></defs>
+            <rect width="400" height="250" fill="url(#g3)"/>
+            <circle cx="200" cy="118" r="66" fill="#fff8fa" opacity=".7"/>
+            <circle cx="200" cy="118" r="46" fill="#ffe0ea" opacity=".9"/>
+            <path d="M200 78c10 14 15 23 15 32 0 9-6 16-15 16s-15-7-15-16c0-9 5-18 15-32Z" fill="#e96a92" opacity=".9"/>
+            <path d="M156 118c14-10 23-15 32-15 9 0 16 6 16 15s-7 15-16 15c-9 0-18-5-32-15Z" fill="#f38cac" opacity=".8"/>
+            <path d="M244 118c-14 10-23 15-32 15-9 0-16-6-16-15s7-15 16-15c9 0 18 5 32 15Z" fill="#f38cac" opacity=".8"/>
+            <circle cx="200" cy="118" r="10" fill="#fff"/>
+            <g opacity=".85"><circle cx="80" cy="66" r="9" fill="#ffe4ee"/><circle cx="106" cy="56" r="6" fill="#ffd5e3"/><circle cx="320" cy="180" r="11" fill="#ffe4ee"/><circle cx="344" cy="168" r="7" fill="#ffd5e3"/></g>
+          </svg>
+          <span class="film-badge">新上线</span>
+          <span class="film-dur">06:41</span>
+        </div>
+        <div class="film-body">
+          <h3>等一场樱花开</h3>
+          <p>小镇照相馆老板与旧相机之间的一段春日记忆，人文短片年度入围作品。</p>
+          <div class="film-foot">
+            <span class="views"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12s3.6-6 10-6 10 6 10 6-3.6 6-10 6-10-6-10-6z"/><circle cx="12" cy="12" r="2.4"/></svg>16.8 万</span>
+            <span class="stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.6 6.2 6.7.5-5.1 4.4 1.6 6.5L12 16.9 6.2 19.6l1.6-6.5-5.1-4.4 6.7-.5L12 2z"/></svg>8.7</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="film-card reveal" data-cat="time">
+        <div class="film-thumb">
+          <svg class="art" viewBox="0 0 400 250" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <defs><linearGradient id="g4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2f2440"/><stop offset="1" stop-color="#7d4a72"/></linearGradient></defs>
+            <rect width="400" height="250" fill="url(#g4)"/>
+            <g opacity=".55" stroke="#ffd9e5" stroke-width="2" fill="none">
+              <circle cx="200" cy="125" r="88"/><circle cx="200" cy="125" r="66"/><circle cx="200" cy="125" r="44"/>
+            </g>
+            <g opacity=".9">
+              <circle cx="200" cy="37" r="7" fill="#ffe9f1"/><circle cx="288" cy="125" r="6" fill="#ffd5e3"/>
+              <circle cx="200" cy="213" r="7" fill="#ffe9f1"/><circle cx="112" cy="125" r="6" fill="#ffd5e3"/>
+              <circle cx="262" cy="63" r="5" fill="#fff0f5"/><circle cx="138" cy="63" r="4" fill="#ffe2ec"/>
+              <circle cx="262" cy="187" r="5" fill="#fff0f5"/><circle cx="138" cy="187" r="4" fill="#ffe2ec"/>
+            </g>
+            <circle cx="200" cy="125" r="20" fill="#ff9bb8" opacity=".9"/>
+            <circle cx="200" cy="125" r="9" fill="#fff"/>
+          </svg>
+          <span class="film-badge">4K</span>
+          <span class="film-dur">15:20</span>
+        </div>
+        <div class="film-body">
+          <h3>花开的时间刻度</h3>
+          <p>用 8000 张照片压缩一整个花期，感受樱花与时间之间的隐秘节奏。</p>
+          <div class="film-foot">
+            <span class="views"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12s3.6-6 10-6 10 6 10 6-3.6 6-10 6-10-6-10-6z"/><circle cx="12" cy="12" r="2.4"/></svg>33.5 万</span>
+            <span class="stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.6 6.2 6.7.5-5.1 4.4 1.6 6.5L12 16.9 6.2 19.6l1.6-6.5-5.1-4.4 6.7-.5L12 2z"/></svg>9.3</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="film-card reveal" data-cat="doc">
+        <div class="film-thumb">
+          <svg class="art" viewBox="0 0 400 250" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <defs><linearGradient id="g5" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e9f4ec"/><stop offset="1" stop-color="#9dc9a8"/></linearGradient></defs>
+            <rect width="400" height="250" fill="url(#g5)"/>
+            <path d="M0 176c70-28 120-52 186-44s106 36 148 32 46-18 66-14v100H0Z" fill="#6fa87c" opacity=".7"/>
+            <path d="M0 208c74-20 124-40 190-34s102 34 144 30 44-12 66-8v54H0Z" fill="#4d8560" opacity=".8"/>
+            <g opacity=".95"><circle cx="120" cy="96" r="15" fill="#ffe9f1"/><circle cx="150" cy="82" r="10" fill="#fff0f5"/><circle cx="96" cy="76" r="8" fill="#ffdbe7"/><circle cx="132" cy="116" r="7" fill="#fff0f5"/></g>
+            <g opacity=".9"><circle cx="300" cy="118" r="12" fill="#ffe9f1"/><circle cx="324" cy="106" r="8" fill="#fff0f5"/><circle cx="284" cy="100" r="6" fill="#ffdbe7"/></g>
+          </svg>
+          <span class="film-badge">编辑推荐</span>
+          <span class="film-dur">09:58</span>
+        </div>
+        <div class="film-body">
+          <h3>樱花树下的一百种生物</h3>
+          <p>镜头贴近树冠与根部，观察樱花盛开时整片林子被唤醒的微观生态。</p>
+          <div class="film-foot">
+            <span class="views"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12s3.6-6 10-6 10 6 10 6-3.6 6-10 6-10-6-10-6z"/><circle cx="12" cy="12" r="2.4"/></svg>12.4 万</span>
+            <span class="stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.6 6.2 6.7.5-5.1 4.4 1.6 6.5L12 16.9 6.2 19.6l1.6-6.5-5.1-4.4 6.7-.5L12 2z"/></svg>8.8</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="film-card reveal" data-cat="city">
+        <div class="film-thumb">
+          <svg class="art" viewBox="0 0 400 250" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <defs><linearGradient id="g6" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff1e6"/><stop offset="1" stop-color="#f3b5a2"/></linearGradient></defs>
+            <rect width="400" height="250" fill="url(#g6)"/>
+            <rect x="0" y="176" width="400" height="74" fill="#b56f6b" opacity=".55"/>
+            <rect x="60" y="150" width="280" height="8" rx="4" fill="#8f5350" opacity=".5"/>
+            <g opacity=".9"><circle cx="110" cy="82" r="16" fill="#ffe4ee"/><circle cx="142" cy="68" r="11" fill="#fff0f5"/><circle cx="86" cy="62" r="8" fill="#ffdbe7"/><circle cx="128" cy="104" r="7" fill="#fff0f5"/></g>
+            <g opacity=".85"><circle cx="290" cy="96" r="14" fill="#ffe4ee"/><circle cx="318" cy="84" r="9" fill="#fff0f5"/><circle cx="272" cy="76" r="7" fill="#ffdbe7"/></g>
+            <circle cx="200" cy="196" r="18" fill="#ffe9f1"/>
+            <path d="M10 232h380" stroke="#8f5350" stroke-width="2" opacity=".35" stroke-dasharray="10 12"/>
+          </svg>
+          <span class="film-badge">社区票选</span>
+          <span class="film-dur">07:12</span>
+        </div>
+        <div class="film-body">
+          <h3>坐上开往春天的列车</h3>
+          <p>沿着一条穿城铁路拍摄，窗外樱花与站台人群交织成流动的春日长卷。</p>
+          <div class="film-foot">
+            <span class="views"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12s3.6-6 10-6 10 6 10 6-3.6 6-10 6-10-6-10-6z"/><circle cx="12" cy="12" r="2.4"/></svg>28.9 万</span>
+            <span class="stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.6 6.2 6.7.5-5.1 4.4 1.6 6.5L12 16.9 6.2 19.6l1.6-6.5-5.1-4.4 6.7-.5L12 2z"/></svg>9.0</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 季节企划大横幅 ===================== -->
+<section class="section feature-band" id="feature">
+  <div class="wrap feature-inner">
+    <div class="reveal">
+      <span class="eyebrow">Season Project</span>
+      <h2>《花期来信》— <em>樱花大片免费在线观看</em>年度企划</h2>
+      <p>樱映视频每年春天启动季节企划，联合 40 位影像创作者、8 座城市与 3 家自然保护机构，把花期里最值得被记录的瞬间集中呈现。2025 企划现已在全站免费开放。</p>
+      <ul class="feature-list">
+        <li>
+          <span class="fi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>
+          <span><b>48 部院线级影像首播</b><small>自然纪录、人文短片、延时摄影三大单元同步上线，全部免费观看。</small></span>
+        </li>
+        <li>
+          <span class="fi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>
+          <span><b>花况地图实时同步</b><small>与在地创作者共同维护花期地图，找到你身边正在盛放的樱花机位。</small></span>
+        </li>
+        <li>
+          <span class="fi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>
+          <span><b>社区共创投稿通道</b><small>你的作品有机会进入年度合辑，与百万观众在屏幕前共享同一个春天。</small></span>
+        </li>
+      </ul>
+      <a class="btn btn-primary" href="#community">加入季节企划</a>
+    </div>
+    <div class="feature-visual reveal">
+      <svg viewBox="0 0 520 520" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+        <defs>
+          <linearGradient id="fv1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5d2b40"/><stop offset="1" stop-color="#b85c81"/></linearGradient>
+          <radialGradient id="fv2" cx=".36" cy=".3" r=".7"><stop offset="0" stop-color="#ffd9e5" stop-opacity=".55"/><stop offset="1" stop-color="#ffd9e5" stop-opacity="0"/></radialGradient>
+        </defs>
+        <rect width="520" height="520" fill="url(#fv1)"/>
+        <rect width="520" height="520" fill="url(#fv2)"/>
+        <g opacity=".9">
+          <circle cx="150" cy="150" r="26" fill="#ffe9f1"/><circle cx="192" cy="126" r="17" fill="#fff0f5"/>
+          <circle cx="118" cy="118" r="13" fill="#ffdbe7"/><circle cx="170" cy="184" r="11" fill="#fff0f5"/>
+        </g>
+        <g opacity=".8">
+          <circle cx="372" cy="196" r="22" fill="#ffe9f1"/><circle cx="408" cy="172" r="14" fill="#fff0f5"/>
+          <circle cx="344" cy="168" r="10" fill="#ffdbe7"/>
+        </g>
+        <g opacity=".7">
+          <circle cx="410" cy="352" r="18" fill="#ffe9f1"/><circle cx="440" cy="330" r="12" fill="#fff0f5"/>
+        </g>
+        <g opacity=".75">
+          <circle cx="110" cy="386" r="16" fill="#ffe9f1"/><circle cx="138" cy="362" r="10" fill="#fff0f5"/>
+          <circle cx="88" cy="356" r="8" fill="#ffdbe7"/>
+        </g>
+        <path d="M0 424c78-30 132-54 206-46s114 40 158 36 46-16 66-12v118H0Z" fill="#3a1a28" opacity=".72"/>
+        <path d="M96 520c0-84 22-150 60-196" stroke="#ffe0ea" stroke-width="3" opacity=".28" fill="none"/>
+        <path d="M420 520c0-96-26-168-70-220" stroke="#ffe0ea" stroke-width="3" opacity=".2" fill="none"/>
+        <g fill="#ffe9f1" opacity=".8">
+          <circle cx="240" cy="300" r="4"/><circle cx="300" cy="342" r="3"/><circle cx="212" cy="368" r="3.4"/>
+          <circle cx="350" cy="278" r="2.8"/><circle cx="270" cy="240" r="3.2"/>
+        </g>
+      </svg>
+      <div class="fv-tag">
+        <span><b>2025 花期来信</b><small>年度企划 · 48 部作品 · 全站免费</small></span>
+        <span class="rate">9.4</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 创作者 ===================== -->
+<section class="section creators" id="creators">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="eyebrow">Creators</span>
+        <h2 class="sec-title">把春天拍给你看的<em>创作者</em></h2>
+        <p class="sec-lead">樱映视频聚集了自然摄影师、城市漫游者、短片导演与影像爱好者。他们用不同的视角，让樱花大片免费在线观看这件事有了更多可能。</p>
+      </div>
+      <a class="btn btn-ghost" href="#community">成为创作者</a>
+    </div>
+
+    <div class="creator-grid">
+      <article class="creator reveal">
+        <div class="avatar a1">林</div>
+        <b>林见山</b>
+        <small>自然纪录摄影师<br>连续 7 年记录山地花期</small>
+        <div class="c-stats">
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M2 12s3.6-6 10-6 10 6 10 6-3.6 6-10 6-10-6-10-6z"/><circle cx="12" cy="12" r="2.4"/></svg>186 万</span>
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M7 4v16M17 4v16M4 9h16M4 15h16"/></svg>42 部</span>
+        </div>
+      </article>
+      <article class="creator reveal">
+        <div class="avatar a2">苏</div>
+        <b>苏小野</b>
+        <small>城市漫游影像博主<br>专注街区与花期的交集</small>
+        <div class="c-stats">
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M2 12s3.6-6 10-6 10 6 10 6-3.6 6-10 6-10-6-10-6z"/><circle cx="12" cy="12" r="2.4"/></svg>96 万</span>
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M7 4v16M17 4v16M4 9h16M4 15h16"/></svg>28 部</span>
+        </div>
+      </article>
+      <article class="creator reveal">
+        <div class="avatar a3">知</div>
+        <b>知野映像</b>
+        <small>延时摄影工作室<br>擅长长周期自然影像</small>
+        <div class="c-stats">
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M2 12s3.6-6 10-6 10 6 10 6-3.6 6-10 6-10-6-10-6z"/><circle cx="12" cy="12" r="2.4"/></svg>214 万</span>
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M7 4v16M17 4v16M4 9h16M4 15h16"/></svg>19 部</span>
+        </div>
+      </article>
+      <article class="creator reveal">
+        <div class="avatar a4">木</div>
+        <b>木鱼短剧</b>
+        <small>人文短片团队<br>用故事承载季节情绪</small>
+        <div class="c-stats">
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M2 12s3.6-6 10-6 10 6 10 6-3.6 6-10 6-10-6-10-6z"/><circle cx="12" cy="12" r="2.4"/></svg>143 万</span>
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M7 4v16M17 4v16M4 9h16M4 15h16"/></svg>31 部</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 社区动态 ===================== -->
+<section class="section community" id="community">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="eyebrow">Community</span>
+        <h2 class="sec-title">社区正在发生的<em>春日现场</em></h2>
+        <p class="sec-lead">每天都有观众与创作者在这里分享花况、片单与拍摄心得。樱映视频因这份持续的热度，而不只是一个播放器。</p>
+      </div>
+    </div>
+
+    <div class="timeline">
+      <div class="tl-item reveal">
+        <div class="tl-card">
+          <div class="tl-head">
+            <b>苏小野 <span class="tl-role">认证创作者</span></b>
+            <span class="tl-time">2 小时前</span>
+          </div>
+          <p>今天去拍了老城墙下的那排染井吉野，<span class="hl">已经开到七分</span>，周末应该就是最好的时候。新片《墙面上的春天》正在剪，预计下周二上线，到时候记得来看。</p>
+          <div class="tl-actions">
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20.8 4.6a5.5 5.5 0 00-7.8 0L12 5.6l-1-1a5.5 5.5 0 00-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 000-7.8z"/></svg>1,824</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 11.5a8.4 8.4 0 01-9 8.4 9 9 0 01-3.9-.9L3 21l1.9-4.6A8.4 8.4 0 013 11.5 8.4 8.4 0 0112 3a8.4 8.4 0 019 8.5z"/></svg>236</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-card">
+          <div class="tl-head">
+            <b>一位路过的观众 <span class="tl-role">社区会员</span></b>
+            <span class="tl-time">6 小时前</span>
+          </div>
+          <p>昨晚一口气看完了《花开的时间刻度》，原来樱花从含苞到落尽只要二十多天。<span class="hl">真的被时间震撼到了</span>，已经安利给全家人。</p>
+          <div class="tl-actions">
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20.8 4.6a5.5 5.5 0 00-7.8 0L12 5.6l-1-1a5.5 5.5 0 00-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 000-7.8z"/></svg>932</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 11.5a8.4 8.4 0 01-9 8.4 9 9 0 01-3.9-.9L3 21l1.9-4.6A8.4 8.4 0 013 11.5 8.4 8.4 0 0112 3a8.4 8.4 0 019 8.5z"/></svg>148</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-card">
+          <div class="tl-head">
+            <b>知野映像 <span class="tl-role">认证创作者</span></b>
+            <span class="tl-time">昨天</span>
+          </div>
+          <p>延时素材库已更新 3 个机位，<span class="hl">全部开放给社区二创使用</span>。如果你也想剪一支自己的樱花短片，欢迎在片单里下载原始素材，注明来源即可。</p>
+          <div class="tl-actions">
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20.8 4.6a5.5 5.5 0 00-7.8 0L12 5.6l-1-1a5.5 5.5 0 00-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 000-7.8z"/></svg>2,436</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 11.5a8.4 8.4 0 01-9 8.4 9 9 0 01-3.9-.9L3 21l1.9-4.6A8.4 8.4 0 013 11.5 8.4 8.4 0 0112 3a8.4 8.4 0 019 8.5z"/></svg>417</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-card">
+          <div class="tl-head">
+            <b>樱映编辑部 <span class="tl-role">官方</span></b>
+            <span class="tl-time">2 天前</span>
+          </div>
+          <p>本周新增 12 部影片进入免费片单，其中 4 部为 4K 修复版本。<span class="hl">樱花大片免费在线观看</span>专题页也已同步更新，按花期与地域做了重新编排，欢迎收藏。</p>
+          <div class="tl-actions">
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20.8 4.6a5.5 5.5 0 00-7.8 0L12 5.6l-1-1a5.5 5.5 0 00-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 000-7.8z"/></svg>3,118</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 11.5a8.4 8.4 0 01-9 8.4 9 9 0 01-3.9-.9L3 21l1.9-4.6A8.4 8.4 0 013 11.5 8.4 8.4 0 0112 3a8.4 8.4 0 019 8.5z"/></svg>562</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 会员方案 ===================== -->
+<section class="section plans" id="plans">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="eyebrow">Membership</span>
+        <h2 class="sec-title">免费观看，<em>也可以更进一步</em></h2>
+        <p class="sec-lead">基础观看永久免费。若你希望支持创作者、下载素材或参与线下放映，可以选择以下会员方案。</p>
+      </div>
+    </div>
+
+    <div class="plan-grid">
+      <article class="plan reveal">
+        <h3>免费观众</h3>
+        <p class="plan-desc">适合想随时打开就看的观众，无需付费即可访问绝大多数樱花影片。</p>
+        <div class="price"><span class="cur">¥</span><b>0</b><span>/ 永久</span></div>
+        <ul class="plan-list">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>全站 2,860+ 影片免费观看</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>1080P 高清画质</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>社区发帖与评论</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>花期地图查看</li>
+        </ul>
+        <a class="btn btn-ghost" href="#top">免费开始观看</a>
+      </article>
+
+      <article class="plan hot reveal">
+        <h3>春日会员</h3>
+        <p class="plan-desc">为深度爱好者准备，解锁 4K、素材下载与季节企划优先观看。</p>
+        <div class="price"><span class="cur">¥</span><b>19</b><span>/ 月</span></div>
+        <ul class="plan-list">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>包含免费观众全部权益</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>4K HDR 超清画质</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>创作者素材库下载</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>季节企划提前 7 天观看</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>无广告播放</li>
+        </ul>
+        <a class="btn btn-primary" href="#top">开通春日会员</a>
+      </article>
+
+      <article class="plan reveal">
+        <h3>创作伙伴</h3>
+        <p class="plan-desc">面向持续创作的影像作者，提供曝光、素材与线下放映资源支持。</p>
+        <div class="price"><span class="cur">¥</span><b>99</b><span>/ 月</span></div>
+        <ul class="plan-list">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>包含春日会员全部权益</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>作品优先推荐位</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>官方企划联合署名</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>线下放映席位与沙龙邀请</li>
+        </ul>
+        <a class="btn btn-ghost" href="#creators">申请创作伙伴</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FAQ ===================== -->
+<section class="section faq" id="faq">
+  <div class="wrap">
+    <div class="sec-head" style="justify-content:center;text-align:center">
+      <div style="margin:0 auto">
+        <span class="eyebrow">FAQ</span>
+        <h2 class="sec-title">关于<em>免费观看</em>的常见问题</h2>
+        <p class="sec-lead" style="margin:0 auto">如果这里没有回答你的疑问，欢迎在社区里提问，编辑团队通常会在一天内回复。</p>
+      </div>
+    </div>
+
+    <div class="faq-list">
+      <div class="faq-item open">
+        <button class="faq-q" aria-expanded="true">
+          <span>樱花大片免费在线观看需要注册账号吗？</span>
+          <span class="faq-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span>
+        </button>
+        <div class="faq-a">
+          <p>不需要。站内绝大多数樱花影片都支持<b>免注册直接播放</b>，包括本页精选片单与季节企划作品。注册账号后可以收藏片单、参与社区讨论，并同步你在不同设备上的观看记录。</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          <span>免费片源会突然下架吗？</span>
+          <span class="faq-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span>
+        </button>
+        <div class="faq-a">
+          <p>永久免费片单以正版授权为基础，我们会提前在影片页面标注授权周期。若某部作品因授权原因需要下线，会在<b>下架前 7 天</b>于社区公告，并同步推荐相近题材的替代片单。</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          <span>可以在手机、电视上观看吗？</span>
+          <span class="faq-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span>
+        </button>
+        <div class="faq-a">
+          <p>可以。樱映视频支持网页端、移动端浏览器以及主流电视投屏协议。只要设备在同一网络下，播放页右上角的<b>投屏按钮</b>即可将画面推送到电视，画质会根据网络自动适配。</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          <span>我拍的樱花视频可以投稿吗？</span>
+          <span class="faq-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span>
+        </button>
+        <div class="faq-a">
+          <p>当然可以。社区常年开放投稿通道，题材不限樱花本身，也欢迎花期周边的生活方式影像。通过审核的作品会进入<b>社区片单</b>，优秀作品有机会进入年度企划合辑，并获得创作伙伴计划的支持。</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          <span>会员和免费观看有什么区别？</span>
+          <span class="faq-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span>
+        </button>
+        <div class="faq-a">
+          <p>免费观看已覆盖大部分内容，会员主要带来<b>画质、素材与提前观看</b>方面的提升：4K HDR、无广告、创作者素材库下载以及季节企划提前 7 天观看。你可以随时在账户设置中开通或取消。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CTA ===================== -->
+<section class="section-tight">
+  <div class="wrap">
+    <div class="cta reveal">
+      <div>
+        <h2>这个春天，<em>打开就能看</em></h2>
+        <p>加入樱映视频，与 1,200 万观众一起，在屏幕前收藏每一场樱花盛开。全站正版授权，樱花大片免费在线观看。</p>
+      </div>
+      <div class="cta-btns">
+        <a class="btn btn-primary" href="#films">免费观看精选影片</a>
+        <a class="btn btn-ghost" href="#community">进入创作者社区</a>
+        <span class="cta-note">无需信用卡 · 随时退订</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 页脚 ===================== -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div>
+        <a class="brand" href="#top" aria-label="樱映视频">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 3.2c1.3 2 2.1 3.3 2.1 4.6 0 1.2-.8 2.1-2.1 2.1s-2.1-.9-2.1-2.1c0-1.3.8-2.6 2.1-4.6Z" fill="#fff"/><path d="M12 20.8c-1.3-2-2.1-3.3-2.1-4.6 0-1.2.8-2.1 2.1-2.1s2.1.9 2.1 2.1c0 1.3-.8 2.6-2.1 4.6Z" fill="#fff" opacity=".75"/><path d="M4.4 8.4c2.3-.6 3.9-.8 5.1-.2 1.1.5 1.6 1.6 1.2 2.8-.4 1.1-1.5 1.7-2.7 1.3-1.2-.4-2.2-1.6-3.6-3.9Z" fill="#fff" opacity=".9"/><path d="M19.6 15.6c-2.3.6-3.9.8-5.1.2-1.1-.5-1.6-1.6-1.2-2.8.4-1.1 1.5-1.7 2.7-1.3 1.2.4 2.2 1.6 3.6 3.9Z" fill="#fff" opacity=".65"/><path d="M19.6 8.4c-2.3-.6-3.9-.8-5.1-.2-1.1.5-1.6 1.6-1.2 2.8.4 1.1 1.5 1.7 2.7 1.3 1.2-.4 2.2-1.6 3.6-3.9Z" fill="#fff" opacity=".8"/><circle cx="12" cy="12" r="1.7" fill="#fff"/></svg>
+          </span>
+          <span class="brand-name"><b>樱映视频</b><span>Sakura Film</span></span>
+        </a>
+        <p class="footer-about">樱映视频是一家专注于樱花题材影像的在线视频品牌，提供樱花大片免费在线观看、创作者社区与年度季节企划。我们希望用影像留住花期，也用社区延续春天。</p>
+        <div class="footer-social">
+          <a href="#top" aria-label="微博"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M8 13c1 2 3 3 5 2.4"/><circle cx="9.4" cy="10" r=".9" fill="currentColor" stroke="none"/><circle cx="14.6" cy="10" r=".9" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#top" aria-label="视频号"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="13" rx="3"/><path d="M10 10l4 2.5-4 2.5z" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#top" aria-label="小红书"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><path d="M8 15V9.5M12 15V9.5M16 15V9.5"/></svg></a>
+          <a href="#top" aria-label="邮件"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M4 7l8 6 8-6"/></svg></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>观看</h4>
+        <ul>
+          <li><a href="#films">精选影片</a></li>
+          <li><a href="#feature">季节企划</a></li>
+          <li><a href="#films">免费片库</a></li>
+          <li><a href="#plans">会员方案</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>社区</h4>
+        <ul>
+          <li><a href="#creators">创作者中心</a></li>
+          <li><a href="#community">社区动态</a></li>
+          <li><a href="#community">投稿通道</a></li>
+          <li><a href="#faq">帮助中心</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>关于</h4>
+        <ul>
+          <li><a href="#top">品牌故事</a></li>
+          <li><a href="#top">正版授权</a></li>
+          <li><a href="#top">联系我们</a></li>
+          <li><a href="#top">隐私与条款</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2025 樱映视频 Sakura Film · 保留所有权利</span>
+      <span class="links">
+        <a href="#top">用户协议</a>
+        <a href="#top">隐私政策</a>
+        <a href="#top">信息网络传播视听节目许可</a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="回到顶部">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ===== 顶栏滚动状态 ===== */
+  var header = document.getElementById('header');
+  var toTop = document.getElementById('toTop');
+  function onScroll(){
+    var y = window.scrollY || window.pageYOffset;
+    if (header) header.classList.toggle('scrolled', y > 12);
+    if (toTop) toTop.classList.toggle('show', y > 560);
+  }
+  window.addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+
+  /* ===== 回到顶部 ===== */
+  if (toTop){
+    toTop.addEventListener('click', function(){
+      window.scrollTo({top:0, behavior:'smooth'});
+    });
+  }
+
+  /* ===== 移动端菜单 ===== */
+  var menuToggle = document.getElementById('menuToggle');
+  if (menuToggle){
+    menuToggle.addEventListener('click', function(){
+      var links = document.querySelector('.nav-links');
+      if (!links) return;
+      var isOpen = links.style.display === 'flex';
+      if (isOpen){
+        links.style.display = '';
+        menuToggle.setAttribute('aria-expanded','false');
+      } else {
+        links.style.display = 'flex';
+        links.style.position = 'absolute';
+        links.style.top = '72px';
+        links.style.left = '0';
+        links.style.right = '0';
+        links.style.flexDirection = 'column';
+        links.style.alignItems = 'stretch';
+        links.style.gap = '2px';
+        links.style.padding = '12px 18px 18px';
+        links.style.background = 'rgba(255,248,250,.98)';
+        links.style.borderBottom = '1px solid rgba(233,106,146,.18)';
+        links.style.boxShadow = '0 20px 40px -24px rgba(120,30,70,.5)';
+        links.querySelectorAll('a').forEach(function(a){
+          a.style.padding = '12px 14px';
+          a.style.borderRadius = '10px';
+        });
+        menuToggle.setAttribute('aria-expanded','true');
+      }
+    });
+    document.querySelectorAll('.nav-links a').forEach(function(a){
+      a.addEventListener('click', function(){
+        if (window.innerWidth <= 760){
+          var links = document.querySelector('.nav-links');
+          if (links){ links.style.display = ''; }
+          menuToggle.setAttribute('aria-expanded','false');
+        }
+      });
+    });
+  }
+
+  /* ===== 精选影片筛选 ===== */
+  var chips = document.querySelectorAll('.chip[data-filter]');
+  var cards = document.querySelectorAll('#filmGrid .film-card');
+  chips.forEach(function(chip){
+    chip.addEventListener('click', function(){
+      chips.forEach(function(c){ c.classList.remove('active'); c.setAttribute('aria-selected','false'); });
+      chip.classList.add('active');
+      chip.setAttribute('aria-selected','true');
+      var f = chip.getAttribute('data-filter');
+      cards.forEach(function(card){
+        var match = (f === 'all' || card.getAttribute('data-cat') === f);
+        card.style.display = match ? '' : 'none';
+        if (match){
+          card.classList.remove('in');
+          void card.offsetWidth;
+          card.classList.add('in');
+        }
+      });
+    });
+  });
+
+  /* ===== FAQ 手风琴 ===== */
+  var faqItems = document.querySelectorAll('.faq-item');
+  faqItems.forEach(function(item){
+    var q = item.querySelector('.faq-q');
+    var a = item.querySelector('.faq-a');
+    if (!q || !a) return;
+    // 初始化已展开项高度
+    if (item.classList.contains('open')){
+      a.style.maxHeight = a.scrollHeight + 'px';
+    }
+    q.addEventListener('click', function(){
+      var isOpen = item.classList.contains('open');
+      faqItems.forEach(function(other){
+        other.classList.remove('open');
+        var oa = other.querySelector('.faq-a');
+        if (oa) oa.style.maxHeight = '0px';
+        var oq = other.querySelector('.faq-q');
+        if (oq) oq.setAttribute('aria-expanded','false');
+      });
+      if (!isOpen){
+        item.classList.add('open');
+        a.style.maxHeight = a.scrollHeight + 'px';
+        q.setAttribute('aria-expanded','true');
+      }
+    });
+  });
+
+  /* ===== 滚动显现 ===== */
+  var revealEls = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if (en.isIntersecting){
+          en.target.classList.add('in');
+          io.unobserve(en.target);
+        }
+      });
+    }, {threshold:0.12, rootMargin:'0px 0px -40px 0px'});
+    revealEls.forEach(function(el){ io.observe(el); });
+  } else {
+    revealEls.forEach(function(el){ el.classList.add('in'); });
+  }
+
+  /* ===== 数字计数动画 ===== */
+  var statNums = document.querySelectorAll('.hero-meta strong, .stat b');
+  function animateCount(el){
+    var raw = el.textContent.trim();
+    var m = raw.match(/^([\d.,]+)/);
+    if (!m) return;
+    var numStr = m[1];
+    var target = parseFloat(numStr.replace(/,/g,''));
+    if (!isFinite(target) || target <= 0) return;
+    var suffix = raw.slice(numStr.length);
+    var decimals = (numStr.split('.')[1] || '').length;
+    var duration = 1300;
+    var start = performance.now();
+    function step(now){
+      var p = Math.min(1, (now - start) / duration);
+      var eased = 1 - Math.pow(1 - p, 3);
+      var val = target * eased;
+      var out;
+      if (decimals > 0){
+        out = val.toFixed(decimals);
+      } else {
+        out = Math.round(val).toString();
+        if (numStr.indexOf(',') > -1){
+          out = out.replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+        }
+      }
+      el.textContent = out + suffix;
+      if (p < 1) requestAnimationFrame(step);
+      else el.textContent = raw;
+    }
+    requestAnimationFrame(step);
+  }
+  if ('IntersectionObserver' in window){
+    var counted = new WeakSet();
+    var io2 = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if (en.isIntersecting && !counted.has(en.target)){
+          counted.add(en.target);
+          animateCount(en.target);
+          io2.unobserve(en.target);
+        }
+      });
+    }, {threshold:0.5});
+    statNums.forEach(function(el){ io2.observe(el); });
+  }
+
+  /* ===== 播放按钮交互 ===== */
+  var playBtn = document.getElementById('playBtn');
+  if (playBtn){
+    playBtn.addEventListener('click', function(){
+      var bar = document.querySelector('.pb-bar i');
+      var row = document.querySelector('.pb-row span');
+      if (bar){
+        bar.style.transition = 'width 4s linear';
+        bar.style.width = '100%';
+      }
+      if (row){
+        row.textContent = '播放中… 4K HDR 已就绪';
+      }
+      playBtn.style.transform = 'translate(-50%,-50%) scale(.9)';
+      setTimeout(function(){
+        playBtn.style.transform = '';
+      }, 260);
+    });
+  }
+
+  /* ===== 花瓣飘落装饰 ===== */
+  var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (!reduceMotion && window.innerWidth > 760){
+    var petalCount = 14;
+    var frag = document.createDocumentFragment();
+    for (var i = 0; i < petalCount; i++){
+      var p = document.createElement('span');
+      p.className = 'petal';
+      var size = 7 + Math.random() * 8;
+      p.style.width = size + 'px';
+      p.style.height = size + 'px';
+      p.style.left = (Math.random() * 100) + 'vw';
+      p.style.animationDuration = (11 + Math.random() * 12) + 's';
+      p.style.animationDelay = (-Math.random() * 16) + 's';
+      p.style.opacity = (0.25 + Math.random() * 0.35).toFixed(2);
+      frag.appendChild(p);
+    }
+    document.body.appendChild(frag);
+  }
+
+  /* ===== 平滑锚点（兼容旧浏览器） ===== */
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){
+    a.addEventListener('click', function(e){
+      var id = a.getAttribute('href');
+      if (id && id.length > 1){
+        var target = document.querySelector(id);
+        if (target){
+          e.preventDefault();
+          var offset = 80;
+          var top = target.getBoundingClientRect().top + window.scrollY - offset;
+          window.scrollTo({top: top, behavior:'smooth'});
+        }
+      }
+    });
+  });
+
+})();
+</script>
+</body>
+  </html>
